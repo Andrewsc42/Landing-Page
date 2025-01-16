@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 1200px;
+
+}
+
+.left {
+    display: flex;
+    width: 150px;
+}
+
+header {
+    display: flex;
+    
+}
+
+
+ul {
+    display: flex;
+    gap: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+li {
+    list-style-type: none;
+
+}
