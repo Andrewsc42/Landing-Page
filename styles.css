@@ -1,28 +1,53 @@
 .container {
     display: flex;
-    justify-content: center;
-    align-items: baseline;
+    justify-content: space-around;
+    align-items: flex-start;
     flex-direction: column;
+    flex-flow: row wrap;
+    row-gap: 50px;
+    column-gap: 20px;
     background-color: #1f2937;
     color: white;
     
 }
 
-.right {
+.siteDescription {
     display: flex;
-    justify-content: end;
-    align-items: start;
-    width: 1200px;
-
+    flex-direction: row;
+    flex-flow: row wrap;
 }
 
-.left {
-    display: flex;
-    width: 150px;
+.headerOne {
+    display:flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
 }
+
+.descriptPara {
+    display:flex;
+    width: 200px;
+}
+
+.descriptImage {
+    display:flex;
+    width: 400px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.signUpButton {
+    display: flex;
+    
+}
+
 
 header {
     display: flex;
+    width: 1500px;
+    justify-content: space-around;
+    align-items: flex-start;
     
 }
 
