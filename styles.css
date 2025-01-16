@@ -13,9 +13,16 @@
 
 .siteDescription {
     display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
+    flex-direction: column;
+    width: 750px;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    
 }
+
+
 
 .headerOne {
     display:flex;
@@ -34,7 +41,8 @@
     display:flex;
     width: 400px;
     height: 200px;
-    justify-content: space-around;
+    padding: 5px;
+    justify-content: space-between;
 }
 
 .signUpButton {
