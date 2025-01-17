@@ -1,4 +1,4 @@
-/*                   */
+/* flexbox container one */
 .container, a {
     display: flex;
     justify-content: space-evenly;
@@ -13,7 +13,7 @@
     
 }
 
-/*                   */
+/* flexbox container two */
 .containerTwo {
     display: flex;
     height: 300px;
@@ -22,7 +22,7 @@
     
 }
 
-/*                   */
+/* flexbox container three */
 .containerThree {
     display: flex;
     flex-direction: column;
@@ -31,6 +31,15 @@
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+    padding: 100px;
+
+}
+
+.containerFour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
     padding: 100px;
 
 }
@@ -75,6 +84,7 @@
     border-radius: 5px;
     color: white;
     
+    
 }
 
 /*                   */
@@ -116,6 +126,16 @@
     align-self: end;
 }
 
+.leftCall{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 20px;
+}
+
+
+
 /*                   */
 h3 {
     display: flex;
@@ -123,6 +143,7 @@ h3 {
     width: fit-content;
     height: fit-content;
     font-size: 24px;
+    padding-left: 100px;
 }
 
 /*                   */
