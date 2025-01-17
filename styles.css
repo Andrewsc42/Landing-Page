@@ -1,32 +1,33 @@
-.container {
+.container, a {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    padding-bottom: 100px;
     flex-direction: column;
     flex-flow: row wrap;
     row-gap: 50px;
-    column-gap: 20px;
+    column-gap: 30px;
     background-color: #1f2937;
     color: white;
     
 }
 
+.containerTwo {
+    display: flex;
+    align-items: center;
+}
+
 .siteDescription {
     display: flex;
     flex-direction: column;
-    width: 750px;
-    align-items: center;
-    justify-content: space-around;
+    width: 500px;
     
-    
-    
-}
 
+}
 
 
 .headerOne {
     display:flex;
-    width: 200px;
+    width: 300px;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
@@ -34,28 +35,41 @@
 
 .descriptPara {
     display:flex;
-    width: 200px;
+    width: 400px;
 }
 
 .descriptImage {
     display:flex;
-    width: 400px;
-    height: 200px;
-    padding: 5px;
-    justify-content: space-between;
+    width: 500px;
+    height: 250px;
+    padding-right: 10px;
+    align-self: center;
 }
 
 .signUpButton {
     display: flex;
+    width: 100px;
+    justify-content: center;
+    background-color: #3882f6;
     
 }
 
+.subImage {
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+h3 {
+    display: flex;
+    width: 200px;
+}
 
 header {
     display: flex;
-    width: 1500px;
-    justify-content: space-around;
-    align-items: flex-start;
+    width: 1463px;
+    height: 100px;
+    justify-content: space-between;
     
 }
 
@@ -67,8 +81,10 @@ ul {
 }
 
 a {
+    display: flex;
     text-decoration: none;
-    
+    width: 150px;
+    height: 100px;
 }
 
 li {
