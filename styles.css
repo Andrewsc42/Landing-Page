@@ -1,7 +1,7 @@
 /*                   */
 .container, a {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 100px;
     flex-direction: column;
     flex-flow: row wrap;
@@ -26,16 +26,14 @@
 .siteDescription {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    height: fit-content;
+    width: fit-content;
     
 }
 
 /*                   */
 .headerOne {
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
     font-size: 48px;
     font-weight: 900;
 }
@@ -89,14 +87,13 @@
     width: 150px;
     height: 150px;
     
-    
 }
 
 /* styling for txt found under set of four smaller images. */
 .picTxt {
     display: flex;
     font-style: italic;
-    
+    text-align: center;
 }
 
 
@@ -104,7 +101,8 @@
 /*                   */
 h3 {
     display: flex;
-    width: 200px;
+    width: fit-content;
+    height: fit-content;
     font-size: 24px;
 }
 
@@ -118,18 +116,20 @@ h2 {
     
 }
 
-/*                   */
+/* Styling for header flexbox */
 header {
     display: flex;
-    width: 1463px;
+    flex-wrap: wrap;
+    width: 1800px;
     height: 100px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 
 /*                   */
 ul {
     display: flex;
+    height: 28px;
     gap: 25px;
 
 }
@@ -138,13 +138,13 @@ ul {
 a {
     display: flex;
     text-decoration: none;
-    width: 150px;
-    height: 100px;
+    width: fit-content;
+    height: fit-content;
     font-size: 18px;
     
 }
 
-/*                   */
+/* Removes underline from header links */
 li {
     list-style-type: none;
 
