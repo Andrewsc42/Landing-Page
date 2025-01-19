@@ -137,6 +137,12 @@
     border-radius: 20px;
 }
 
+/* footer flexbox */
+.footerBox {
+    display: flex;
+    justify-content: center;
+}
+
 /*                   */
 h3 {
     display: flex;
