@@ -28,8 +28,6 @@
     justify-content: center;
     background-color: #e5e7eb;
     font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
     padding: 100px;
 
 }
@@ -120,6 +118,11 @@
     text-align: center;
 }
 
+.quote {
+    display: flex;
+    font-style: italic;
+    font-weight: lighter;
+}
 
 .qouteSign {
     display: flex;
