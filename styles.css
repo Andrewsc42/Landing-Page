@@ -35,7 +35,6 @@
 /* flexbox main-container four */
 .containerFour {
     display: flex;
-    align-items: center;
     justify-content: center;
     background-color: white;
     color: white;
@@ -76,14 +75,11 @@
 
 /*                   */
 .signUpButton {
-    display: flex;
     width: 100px;
-    justify-content: center;
     background-color: #3882f6;
     border-radius: 5px;
     color: white;
-    
-    
+        
 }
 
 /*                   */
@@ -118,11 +114,13 @@
     text-align: center;
 }
 
+
 .quote {
     display: flex;
     font-style: italic;
     font-weight: lighter;
 }
+
 
 .qouteSign {
     display: flex;
@@ -135,9 +133,12 @@
 .leftCall{
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 1000px;
     background-color: #3882f6;
-    border-radius: 20px;
+    border-radius: 25px;
+    padding-left: inherit;
+    padding-right: inherit;
+
 }
 
 /* footer flexbox */
@@ -151,7 +152,6 @@
 /*                   */
 h3 {
     display: flex;
-    align-self: flex-start;
     width: fit-content;
     height: fit-content;
     font-size: 24px;
