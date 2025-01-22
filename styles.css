@@ -56,12 +56,13 @@
     display:flex;
     font-size: 48px;
     font-weight: 900;
+    width: fit-content;
 }
 
 /*                   */
 .descriptPara {
     display:flex;
-    width: 400px;
+    width: fit-content;
 }
 
 /*                   */
@@ -69,7 +70,6 @@
     display:flex;
     width: 500px;
     height: 250px;
-    padding-right: 10px;
     align-self: center;
 }
 
@@ -201,4 +201,8 @@ a {
 li {
     list-style-type: none;
 
+}
+
+p {
+    width: fit-content;
 }
