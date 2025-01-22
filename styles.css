@@ -1,9 +1,11 @@
 /* flexbox main-container one */
-.container, a {
+.container {
     display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 100px;
+    padding-top: 75px;
     row-gap: 50px;
     column-gap: 200px;
     background-color: #1f2937;
@@ -47,7 +49,7 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-    width: fit-content;
+    width: 400px;
     
 }
 
@@ -70,12 +72,13 @@
     display:flex;
     width: 500px;
     height: 250px;
-    align-self: center;
+    
 }
 
 /*                   */
 .signUpButton {
     width: 100px;
+    height: 35px;
     background-color: #3882f6;
     border-radius: 5px;
     color: white;
@@ -172,9 +175,12 @@ h2 {
 header {
     display: flex;
     flex-wrap: wrap;
-    width: 1854px;
-    height: 100px;
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
     justify-content: space-around;
+    
     
 }
 
@@ -194,6 +200,7 @@ a {
     width: fit-content;
     height: fit-content;
     font-size: 18px;
+    color: white;
     
 }
 
