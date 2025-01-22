@@ -15,7 +15,7 @@
 .containerTwo {
     display: flex;
     justify-content: space-around;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 /* flexbox main-container three */
@@ -26,7 +26,7 @@
     background-color: #e5e7eb;
     font-size: 36px;
     padding: 100px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 /* flexbox main-container four */
@@ -36,7 +36,8 @@
     background-color: white;
     color: white;
     padding: 100px;
-
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 /*                   */
@@ -166,6 +167,10 @@ h2 {
     
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Styling for header flexbox */
 header {
     display: flex;
@@ -193,6 +198,7 @@ a {
     height: fit-content;
     font-size: 18px;
     color: white;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -204,4 +210,9 @@ li {
 
 p {
     width: fit-content;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
 }
