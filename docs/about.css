@@ -1,0 +1,60 @@
+.aboutBox {
+    display: flex;
+    flex-direction: column;
+    padding: 250px;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+.aboutDesc {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    display: flex;
+    width: fit-content;
+    height: 20px;
+    gap: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}

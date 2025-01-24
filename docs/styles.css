@@ -221,6 +221,7 @@ li {
 p {
     width: fit-content;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 label {
